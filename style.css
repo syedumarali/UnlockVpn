@@ -1,0 +1,394 @@
+body
+{
+    overflow-x: hidden;
+}
+
+.bg-img{
+    background-image: url(./img/bg1img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65vh;
+}
+
+.bg-img1{
+    background-image: url(./img/bg1img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 38vh;
+}
+
+.bg-img-new1{
+    background-image: url(./img/bg1img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 76vh; */
+    /* height: auto; */
+    padding-bottom: 120px;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    z-index: 54;
+}
+.img-animate{
+    position: relative;
+    bottom: 35px;    
+    left: 34px;
+    animation: logoAnimate 3s ease infinite;
+    width: 30px;
+    
+    
+}
+
+@keyframes logoAnimate{
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    
+    50%{
+        transform: translateY(30px) ;
+    }
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+}
+
+
+ /* .img-new{
+    background: none;
+    border: none;
+    border:1px solid black;
+
+} */
+
+.navbar1 {
+    color: white;
+    margin: 0;
+
+}
+.navbar-nav {
+    white-space: nowrap;
+}
+.hover:hover {
+        color: #ffc107 !important;    
+}
+
+
+/* .button-new{
+    display: flex;
+    justify-content: space-between;
+  
+} */
+
+
+
+.btn2{
+
+    border: 1px solid white;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 500;
+    width: 130px;  
+}
+
+/* .btn2:hover{
+    background: linear-gradient(to right, #FEB747 100%, #FFF 50%);
+    
+} */
+
+.btn4{
+    border: 1px solid white;
+    height: 50px;
+    border-radius: 20px;
+    font-weight: 500;
+    width: 190px;
+    background-color: #0e46a3;
+
+}
+
+.btn3{
+    border: none;
+    background: none;
+    color: white;
+}
+.newbtn{
+    gap: 80px;
+}
+
+/* ready to start now button */
+.btnnew{
+    background-color : orange;
+    color: white;
+    border: none;
+}
+
+
+
+.simple{
+    color: orange;
+}
+
+.icon-img{
+    width: 80px;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 56%; 
+}
+
+.video-wrapper iframe {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.card{
+
+    background-color: #458EF7;
+    border-radius: 2px solid;
+    
+}
+.list{
+    list-style: none;
+   
+}
+
+
+.pricing-plan{
+    background-color: lightgray;
+    width: 30px;
+    color: white;
+}
+
+/* Ready to section */
+.bg-new{
+    background-image: url("./img/readytoimg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500%;
+    width: 100%;
+}
+/* private section */
+.icon1{
+    color: rgb(13, 110, 253);
+}
+
+.paragraph{
+    color: #7e7678;
+}
+
+/* flags */
+
+.d-flex img {
+    margin-right: 10px; 
+}
+
+.d-flex img:last-child {
+    margin-right: 0; 
+}
+
+
+/* testimonial section */
+
+
+.testimonial{
+  background-color: #f3f9fe;
+}
+.testimonial-img{
+  background-image: url("./img/testimonial-img.png");;
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+}
+.testimonial-new{
+  font-size: 13px;
+  margin-top: 87px;
+}
+
+/* Customer Service */
+/* .d-flex {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 20px; 
+}
+
+.icon-img {
+    margin-bottom: 10px;
+}
+
+h5 {
+    margin-bottom: 5px;
+} */
+
+
+/* Footer */
+
+.footer1{
+    display: flex;
+    justify-content: center;
+}
+
+.backg-image{
+    background-image: url(./img/footer-img\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+}
+.btn-group{
+    background-color: #429dee;
+    color: white;
+}
+.footer-btn{
+    background-color: #429dee ;
+    border-radius: 0;
+    border: none ;
+    color: white ;
+}
+.footer-p{
+    font-size: 12px;
+}
+.cursor{
+    cursor: pointer;
+}
+
+
+/*  */
+#accordionExample{
+    border: none;
+    
+}
+.accordion-item{
+    border: none ;
+}
+
+.bgnewimg{
+    background-image: url(./img/sec4-hero.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-height {
+    height: auto;
+    margin: 15px;
+}
+
+.card12{
+    width: 20rem;
+    margin-bottom: 20px;
+}
+.btn1{
+    height: 75px;
+    width: 110px;
+    border: none;
+}
+
+.card-style{
+    height: 90%;
+    border:1px solid transparent; 
+    box-shadow:0px 0px 3px rgba(0,0,0.1,0.3)
+}
+
+/* benefits css */
+
+.store-logs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bg-color1{
+    background-color: #e7e7f5;;
+}
+
+.question{
+    background-color: #57b4fb ;
+    border-radius: 20px;
+}
+.btnnew5{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: #0e46a3;
+    font-weight: 300;
+    color: white;
+}
+
+/* Packages css*/
+
+.vpnbutton{
+    background-color: #FEB747;
+    border-radius: 20px;
+    border: none;
+
+    width: 125px;
+    height: 40px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.securecheckout {
+    background-color: #f5f8ff;
+}
+
+.navbar-anchor {
+    font-size: 13px;
+    padding-left: 66px;
+    justify-content: space-around;   
+}
+
+.span-new{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+/* Contact pg css*/
+.bgcolor5 {
+    background-color: #eff6fb ;
+    width: 100%;
+}
+
+.btn{
+    background-color: #FEB747 ; 
+    color:white;
+}
+
+.vpn-bgimage {
+    background-image: url(./img/unlock-bgimg.png);
+    background-repeat: no-repeat;
+    margin-right: 272px;
+}
+
+.insta {
+    color:rgb(220, 53, 69);
+}
+
+.linkedin-icon{
+    color:  rgb(13, 202, 240);
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+}

@@ -1,0 +1,1690 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+ /* ======================================index file===================================== */
+
+a{
+    text-decoration: none !important;
+    /* color: #fff !important; */
+}
+
+.nav-link.active {
+    /* background-color: #ffc107; */
+    color: #ffc107 !important;
+}
+
+    /* =========== section1 ================ */
+ 
+.bg-image{
+    /* height: 100vh; */
+    background-image: url(images/IMAGEbanner_bg.png.png);
+    background-size: cover;
+    background-position: center;
+} 
+/* =========== navbar ================ */
+
+.navbar>.container{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: flex-end !important;
+}
+.nav-alignment{
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 20px !important;
+}
+.unlock-align{
+    display: flex;
+    align-items: flex-end;
+   
+}
+.nav-hover:hover{
+    color: #ffc107 !important;
+
+}
+ /* ============== 1st button ============ */
+.custom-btn{
+    width: 130px;
+    height: 35px;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    padding: 0 !important;
+    margin-left: 18px;
+    border: none;
+    transition: all .5s ease-out;
+    
+}
+button:hover{
+    color: #FFF;
+  }
+.custom-btn{
+    background: linear-gradient(to right, #FEB747 50%, #FFF 50%);
+   background-size: 200% 100%;
+   background-position: right;
+   transition: all .3s ease-out;
+   border-radius: 20px;
+ }
+.custom-btn:hover{
+    background-position: left;
+}
+
+ /* ============== 1st button end ============ */
+
+ /* ============== 2nd button ============ */
+.custom-btn-1{
+    width: 130px;
+    height: 35px;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    padding: 0 !important;
+    margin-left: 18px;
+    border: none;
+    transition: all .5s ease-out;
+    color: #fff;
+}
+button:hover{
+    color:#fff;
+  }
+.custom-btn-1{
+    background: linear-gradient(to right,#0961af 50%,#FEB747 50%);
+   background-size: 200% 100%;
+   background-position: right;
+   transition: all .3s ease-out;
+   border-radius: 20px;
+ }
+.custom-btn-1:hover{
+    background-position: left;
+}
+ /* ============== 2nd button end ============ */
+
+.custom-lgn-btn{
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    
+}
+.nav-vpn-btn{
+    margin-bottom: 10px;
+}
+/* .home-btn-fs{
+    font-size: 14px !important;
+} */
+/* =========== navbar end ================ */
+
+.flage-animate{
+    transition: transform 0.2s ease-in-out;
+}
+.flage-animate:hover{
+    transform: translateY(-10px);
+}
+
+.icon-hover{
+    transition: transform 0.2s ease-in-out
+    /* transform: scale(1.5); */
+}
+.icon-hover:hover{
+    transform: scale(1.2);
+}
+
+
+/* =========== section1 ================ */
+
+.sec4-card-img{
+    background-color: #458ef7 !important;
+    /* text-align: normal; */
+}
+
+.price-h2{
+    font-size: 50px !important;
+    font-weight: 800 !important;
+}
+.first-text-card{
+    border-left: 4px solid #F3BA5D;
+    margin-right: 100px;
+    padding-left: 30px;
+}
+.p-margin{
+    margin-bottom: 0.5rem;
+}
+/* sec6 */
+.section5-img{
+    background-image: url(images/section5-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec5-p{
+    margin-left: 100px !important;
+    margin-bottom: 20px !important;    
+}
+.section5-2{
+    height: 60px;
+    width: 60px;
+    object-fit: contain;  
+} 
+.bg-color{
+    background-color:#f3f9fe ;
+}
+.arow{
+    color: white;
+}
+
+/* sec6 */
+.sec3-img{
+    background-image: url(images/feature\ sec3-banner.png);
+    background-position: center;
+    background-size: contain;
+}
+.btn0{
+    width: 100%;
+    height: 50px;
+    background-color:  #F7CF90;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    border: none;
+}
+        /* fooooooooooter */
+.ft-align{
+    display: flex;
+}
+.footer-img{
+    background-image: url(images/footer-img.png);
+    background-position: center;
+    background-size: cover;
+}
+.btn-group{
+    background-color: #429dee;
+    color: white;
+}
+.footer-btn{
+    background-color: #429dee !important;
+    border-radius: 0 !important;
+    border: none !important;
+    /* color: white !important; */
+}
+.footer-p{
+    font-size: 12px;
+}
+.footer-p-hover{
+    transition: all 0.3s ease-in-out;
+    color: #fff !important;
+}
+.footer-p-hover:hover{
+    color: #ffc107 !important;
+    font-weight: 500;
+    transform: scale(1.4);
+}
+/* fooooooooooter */
+
+@media only screen and (max-width: 1021px) {
+   .animate1{
+    display: none;
+   }
+}
+@media only screen and (min-width:1021px) {
+    .animate0{
+     display: none;
+    }
+ }
+
+/* @media only screen and (min-width:1300px) {
+    .animate1{
+        display: none;
+    }    
+} */
+
+
+
+/* @media (min-width:100px) and (max-width: 1200px) {
+    .animate1{
+     display: none;
+    }
+ }
+ @media (min-width:1200px) and (max-width: 1300px) {
+     .animate0{
+      display: none;
+     }
+  }
+ 
+ @media only screen and (min-width:1300px) {
+     .animate1{
+         display: none;
+     }    
+ } */
+
+
+@media only screen and (max-width: 2000px){
+    .Bobbylee-black{
+        color: white !important;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .sec5-p{
+        margin-left: 150px !important;
+        margin-top: 100px;
+    }
+    .Bobbylee-black{
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .section5-img{
+        background-image: none;
+        color: black !important;
+    }
+    .sec5-p{
+        color: black !important;
+        margin-left: 0px !important;
+     }
+    .section5-bobbylee{
+        text-align: center;
+        color: black !important;
+    }
+    .Bobbylee-black{
+        color: black !important;
+    }
+    .arow{
+        color: #000;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .sec5-p{
+       width: 400px;
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .section5-img{
+        background-size:360px 400px ;
+        padding: 0 !important;
+    }
+    .sec5-p{
+        width: 300px;
+        height: 140px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: 40px !important;
+     }
+    .section5-bobbylee{
+        height: 120px;
+        padding: 20px;
+    }
+    br{
+        display: none;
+    }
+ }
+
+ /* ======================================index file end===================================== */
+
+ /* ======================================index file animmation start===================================== */
+.animate-logo{
+    /* width: 200px; */
+}
+.logo1{
+    position: relative;
+    bottom: 35px;
+    left:56px;
+    animation: logoAnimate 3s ease infinite;
+    width: 30px;
+}
+
+@keyframes logoAnimate {
+    0%, 100% {
+        transform: translateY(0px); /* Initial and final position */
+    }
+    50% {
+        transform: translateY(30px); /* Move down by 30px */
+    }
+}
+
+.logo2{
+    animation: logoMove 3s ease-in-out infinite;
+    position: relative;
+    transform-origin:  left bottom; 
+}
+@keyframes logoMove{
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(10deg); /* Adjust the degree of tilt */
+    }
+}
+
+.animate-hero{
+    
+}
+.monitor{
+    position: relative;
+     z-index: 1;
+}
+
+@media only screen and (min-width:1020px) {
+    .cloud{
+        position: absolute;
+        right: 175px;
+        top: 85px;
+        animation: moveUpDown 4s linear infinite;
+    }
+    @keyframes moveUpDown {
+        0% { top: 85px; }
+        /* 50% { top: calc(100% - 50px); } 100% height minus the element's height */
+        50% { top: 120px; }
+        100% { top: 85px; }
+    }
+    
+    .wheel1{
+        position: absolute;
+        top: 126px;
+        right: 454px;
+        width: 150px;
+        animation: rotateAround 10s linear infinite;
+    }
+    
+    @keyframes rotateAround {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    .p1-down{
+        position: absolute;
+        right: 440px;
+        top: 320px;
+        z-index: 2;
+        width: 200px;
+        animation: moveX 2s linear infinite, moveY 4s linear infinite;
+    }
+    @keyframes moveX {
+        0% { right: 440px; }
+        50% { right: 420px; }
+        100% { right: 440px; }
+    }
+    @keyframes moveY {
+        0% { top: 320px; }
+        50% { top: 340px; }
+        100% { top: 320px; }
+    }
+    
+    
+    .p2-up{
+        position: absolute;
+        right: 87px;
+        top: 225px;
+        z-index: 2;
+        height: 300px;
+        width: 150px;
+        animation: PtwoX 3s linear infinite;
+    }
+    /* , PtwoY move 4s linear infinite */
+    @keyframes PtwoX {
+        0% { right: 87px; }
+        50% { right: 120px; }
+        100% { right: 87px; }
+    }
+
+     /* ======================================index file animmation end===================================== */
+    
+    
+}
+
+
+
+ /* ======================================About us file===================================== */
+.navbar>.container{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: flex-end !important;
+}
+.nav-alignment{
+    font-size: 12px ;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.unlock-align{
+    display: flex;
+    align-items: flex-end;
+   
+}
+
+.custom-lgn-btn{
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    
+}
+.bg-image{
+    background-image: url(images/about-us\ bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.bg-img-vpn{
+    background-image: url(images/Unlockvpn.png);
+    background-repeat: no-repeat;
+  
+}
+.about-text{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+
+.sect2-cards{
+    display: flex;
+    justify-content: center;
+}
+.sect3{
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    /* width: 18rem !important; */
+}
+.sect3-card{
+    width: 18rem !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-bottom: 2px solid rgb(40, 140, 222) !important;
+    margin-bottom: 20px ;
+}
+.sect3-card-warning{
+    border-bottom: 2px solid rgb(220, 227, 13) !important;
+}
+.sec4-hero{
+    background-image: url(images/sec4-hero.png);
+    background-position: center;
+    background-size: cover;
+}
+.sec4-cards{
+  /* width: 1100px; */
+
+}
+.card{
+    /* width: 18rem !important; */
+    margin-bottom: 20px;
+}
+.card-img{
+    width: 50px;
+    height: 50px;
+}
+
+.sect2-hero-baner{
+    background-image: url(images/sect2-hero-baner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.sec2-icons{
+    border-left: 1px solid rgb(40, 140, 222);
+    border-right: 1px solid rgb(40, 140, 222);
+}
+
+.sec3-img{
+    background-image: url(images/sec-3\ banner.png);
+    background-position: center;
+    background-size: cover;
+}
+.section5-img{
+    background-image: url(images/section5-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.sec5-p{
+    margin-left: 50px;
+}
+.section5-2{
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+   
+} 
+.dns-align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+}
+.card-align-sec6{
+    display: flex;
+    justify-content: center;
+}
+.bg-color{
+   background-color:#f3f9fe ;
+}
+/* .flages{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+} */
+
+.ft-align{
+    display: flex;
+}
+.footer-img{
+    background-image: url(images/footer-img.png);
+    background-position: center;
+    background-size: cover;
+}
+.btn-group{
+    background-color: #429dee;
+    color: white;
+}
+.footer-btn{
+    background-color: #429dee !important;
+    border-radius: 0 !important;
+    border: none !important;
+    color: white !important;
+}
+.footer-p{
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 1150px){
+    .sec2-img{
+        width: 450px;
+        height: 350px;
+        
+    }
+    .Bobbylee-black{
+        color: white;
+    }
+  }
+
+@media only screen and (max-width: 992px){
+    .nav-alignment{
+        display: flex ;
+        flex-direction: column;
+        align-items: center ;
+    }
+    .nav-vpn-btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec2-align{
+        display: flex ;
+        align-items: center ;
+    }
+
+    .sec5-p{
+        margin-left: 150px !important;
+        margin-top: 100px;
+    }
+    .Bobbylee-black{
+        color: white;
+    }
+  }
+
+@media only screen and (max-width: 576px){
+    .sec2-img{
+       width: 300px;
+       height: 250px;
+    }
+    .bg-img-vpn{
+        background-size: contain;
+     }
+     .about-text{
+         font-size: 40px;
+         text-align: start;
+     }
+     .section5-img{
+        background-image: none;
+        color: black !important;
+    }
+    .sec5-p{
+        color: black !important;
+        margin-left: 0px !important;
+     }
+    .section5-bobbylee{
+        text-align: center;
+        color: black !important;
+    }
+    .Bobbylee-black{
+        color: black;
+    }
+  }
+
+@media only screen and (max-width: 768px){
+    .bg-img-vpn{
+       background-size: contain;
+    }
+    .about-text{
+        text-align: center;
+    }
+    .abt-p{
+        text-align: center;
+    }
+    .sect3{
+        display: flex;
+        justify-content: center;
+    }
+    .sec5-p{
+       width: 400px;
+        margin-left: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 360px){
+    .section5-img{
+        background-size:360px 400px ;
+        padding: 0 !important;
+    }
+    .sec5-p{
+        width: 300px;
+        height: 140px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: 40px !important;
+     }
+    .section5-bobbylee{
+        height: 120px;
+        padding: 20px;
+    }
+    br{
+        display: none;
+    }
+ }
+
+
+
+ /* ======================================About us file end===================================== */
+
+ /* ====================================== Featured details file===================================== */
+
+
+.icons-btn{
+    transition: transform 0.5 ease-in-out;
+}
+.icons-btn:hover{
+    transform: scale(1.2);
+}
+p{
+    margin: 0 !important;
+}
+.navbar>.container{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: flex-end !important;
+}
+
+.unlock-align{
+    display: flex;
+    align-items: flex-end;
+   
+}
+.custom-lgn-btn{
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    
+}
+
+.bg-image{
+    background-image: url(images/about-us\ bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.bg-img-vpn{
+    background-image: url(images/Unlockvpn.png);
+    background-repeat: no-repeat;
+  
+}
+.about-text{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.sec2-text-align{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.sec3-img{
+    background-image: url(images/feature\ sec3-banner.png);
+    background-position: center;
+    background-size: contain;
+}
+.btn0{
+    width: 100%;
+    height: 50px;
+    background-color:  #F7CF90;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+/* btn-warning text-uppercase text-white fw-semibold */
+ul li{
+    font-weight: bold;
+    line-height: 2.5rem;
+}
+#accordionExample{
+    border: none !important;
+    
+}
+.accordion-item{
+    background-color: #2594c0 !important; 
+    border:
+     none !important;
+}
+ /* #3694F2 */
+.accordion-header{
+    background-color: #3694F2 !important;
+    border: none !important;
+    font-weight: bold !important;
+}
+/* new section css */
+
+.new1{
+    background-color: #40E0D0;  
+}
+.new2{
+    background-color: #FF0000;
+}
+.new3{
+    background-color: #800080;
+}
+.new4{
+    background-color: #DFFF00;
+}
+.new5{
+    background-color: #FFBF00;
+}
+.new6{
+    background-color: #FF7F50;
+}
+.new7{
+    background-color: #DE3163;
+}
+.new8{
+    background-color: #9FE2BF;
+}
+.new9{
+    background-color: #40E0D0;
+}
+.new10{
+    background-color: #6495ED;
+}
+.new11{
+    background-color: #CCCCFF;
+}
+.new12{
+    background-color: #800000;
+}
+.new13{
+    background-color: #808000;
+}
+.new14{
+    background-color: #008080;
+}
+.new15{
+    background-color: #FF00FF;
+}
+.new16{
+    background-color: #663399;
+}
+.new17{
+    background-color: #7FFF00;
+}
+.new18{
+    background-color: #2E8B57;
+}
+.new19{
+    background-color: #808000;
+}
+.new20{
+    background-color: #008080;
+}
+.new21{
+    background-color: #BC8F8F;
+}
+.new22{
+    background-color: #A52A2A;
+}
+.new23{
+    background-color: #708090;
+}
+.new24{
+    background-color: #DAA520;
+}
+.new25{
+    background-color: #DAA520;
+}
+/* new section css */
+
+/* Fooooter css */
+
+.ft-align{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-img{
+    background-image: url(images/footer-img.png);
+    background-position: center;
+    background-size: cover;
+}
+.btn-group{
+    background-color: #429dee;
+    color: white;
+}
+.footer-btn{
+    background-color: #429dee !important;
+    border-radius: 0 !important;
+    border: none !important;
+    color: white !important;
+}
+.footer-p{
+    font-size: 12px;
+}
+
+/* Fooooter css */
+
+
+@media only screen and (max-width: 1200px){
+    .sec2-img{
+        width: 450px;
+        height: 350px;
+        
+    }
+    .sec2-img-align{
+        display: flex;
+        justify-content: center;  
+     }
+
+  }
+
+@media only screen and (max-width: 992px){
+    /* .nav-alignment{
+        display: flex ;
+        flex-direction: column;
+        align-items: center ;
+    } */
+    /* .nav-vpn-btn{
+      display: flex;
+      flex-direction: column;  
+    } */
+
+} 
+
+@media only screen and (max-width: 768px){
+    .bg-img-vpn{
+       background-size: contain;
+    }
+    .about-text{
+        text-align: center;
+        font-size: 45px;
+    }
+    .sec3-heading{
+        text-align: center;
+    }
+    .abt-p{
+        text-align: center;
+    }
+  }
+
+@media only screen and (max-width: 576px){
+    .sec2-img{
+       width: 300px;
+       height: 250px;
+    }
+    .bg-img-vpn{
+        background-size: contain;
+     }
+    .about-text{
+        font-size: 30px;
+        text-align: center;  
+    }
+  }
+
+ /* ====================================== Featured details file end===================================== */
+
+
+
+ /* ====================================== contact us file===================================== */
+
+.custom-nav{
+    display: flex;
+    justify-content: center; 
+} 
+/* .custom-btn{
+    width: 160px;
+    height: 40px;
+} */
+.bg-image{
+    background-image: url(images/about-us\ bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.bg-img-vpn{
+    background-image: url(images/Unlockvpn.png);
+    background-repeat: no-repeat;
+}
+.about-text{
+    font-size: 75px;
+    font-weight: bold;
+}
+.abt-p{
+    margin-left: 80px;   
+}
+
+.form-control{
+    background-color: #eff6fb !important;
+}
+
+
+ul li{
+    font-weight: bold;
+    line-height: 2.5rem;
+}
+#accordionExample{
+    border: none !important;
+    
+}
+.accordion-item{
+    background-color: #eff6fb !important; 
+    border: none !important;
+}
+.accordion-header{
+    background-color: #eff6fb !important;
+    border: none !important;
+    font-weight: bold !important;
+}
+/* .flages{
+    display: flex;
+    justify-content: space-between;
+} */
+.ft-align{
+    display: flex;
+}
+.footer-img{
+    background-image: url(images/footer-img.png);
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 576px){
+    .sec2-img{
+       width: 300px;
+       height: 250px;
+    }
+  }
+
+@media only screen and (max-width: 768px){
+    .bg-img-vpn{
+       background-size: contain;
+    }
+    .about-text{
+        text-align: center;
+    }
+  }
+@media only screen and (max-width: 576px){
+    .bg-img-vpn{
+       background-size: contain;
+    }
+    .about-text{
+        font-size: 50px;
+        text-align: center;
+    }
+  } 
+
+ /* ====================================== contact us file end===================================== */
+
+ /* ====================================== Benifits of a vpn file end===================================== */
+.sec1-banner{
+     background-image: url(images/IMAGEbanner_bg.png.png);
+     background-size: cover;
+     background-position: center;
+ }
+ .sec1-align{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .sec1-h1{
+     font-size: 62px;
+     /* font-weight: 600; */
+ }
+ .btn0 {
+     height: 55px;
+     width: 250px !important;
+     background-color: #0e46a3;
+     text-decoration: none;
+     color: white;
+     border: none;
+     border-radius: 50px;
+     font-size: 18px;
+     font-weight: 400;
+     transition: all 0.3s ease;
+ }
+ .btn1{
+     height: 55px;
+     width: 250px !important;
+     background-color:  #0e46a3;
+     text-decoration: none;
+     color: white;
+     border: none;
+     border-radius: 50px;
+     font-size: 18px;
+     font-weight: 400;
+     transition: all 0.3s ease;
+ }
+ .btn0:hover{
+     background-color: #19efec;
+ }
+ .btn1:hover{
+     background-color: #16eb3a;
+ }
+ .img-benifits-cardg{
+     /* width: 50px !important;
+     height: 50px !important; */
+
+     margin: 0 auto;
+ }
+ .card-text{
+     color: rgb(128, 128, 128);
+ }
+ .card-mb{
+     margin-bottom: 20px;
+ }
+ 
+ .card{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* padding-top: 16px; */
+     margin-bottom: 20px;
+ }
+ 
+ .fa-brands{
+     font-size: 20px;
+ }
+ .sec2-align{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+ }
+ .section-4{
+     background-color: #e7e7f5;
+ }
+ .sec6-design{
+     background-color: #57b4fb !important;
+     border-radius: 20px;
+ }
+
+ .sec6-design h1{
+     font-size: 34px;
+ }
+
+ /* ====================================== Benifits of a vpn file end===================================== */
+
+ /* ====================================== Trust center file===================================== */
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+ }
+ 
+ /* ============ section 1============== */
+ .trust-hero{
+    background-image: url(images/about-us\ bg.png);
+    background-position: center;
+    background-size: cover;
+ }
+ .section1 {
+   /* width: 100%;
+     height: 100vh; */
+ }
+ .sec1-text {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ .sec1-head {
+   font-size: 62px;
+   font-weight: 800;
+ }
+ .btn0 {
+   height: 55px;
+   width: 250px !important;
+   background-color: #0e46a3;
+   text-decoration: none;
+   color: white;
+   border: none;
+   border-radius: 50px;
+   font-size: 18px;
+   font-weight: 400;
+   transition: all 0.3s ease;
+ }
+ .btn0:hover{
+   background-color: #1dafdb;
+ }
+ 
+ /* ============ section 1============== */
+ 
+ 
+ /* ============ links============== */
+ 
+ .links h6, .links-design{
+   display: inline;
+ }
+ .links ul{
+   margin: 30px 0px;
+ }
+ .links ul .links-design{
+   list-style-type: none;
+   border-bottom: 4px solid rgba(128, 128, 128, 0.3);
+   transition: all 0.3s ease;
+ }
+ 
+ .links ul .links-design:hover{
+   border-bottom: 4px solid #0e46a3;
+ }
+ .links ul .links-design a{
+   text-decoration: none;
+ }
+ 
+ /* ============ Links============== */
+ 
+ .section2, .section3, .section4, .section5{
+     background-color: #FAF9FD !important;
+ }
+ .sec2-p {
+   text-transform: uppercase;
+   letter-spacing: 0.3rem;
+   font-weight: 500;
+ }
+ .sec2-h2 {
+   font-size: 40px;
+   font-weight: 600;
+ }
+ /* #3694F2 */
+ /* #289BFE */
+ /* ============ section 2============== */
+ .accordion {
+   --bs-accordion-btn-bg: #289BFE !important;
+   --bs-accordion-active-bg: #3694F2 !important;
+   --bs-accordion-btn-focus-box-shadow: 20px !important;
+   --bs-accordion-active-color: black !important;
+   --bs-accordion-bg: #2e99c6 !important;
+ }
+ 
+ .accordion-item {
+   border: 2px solid gray !important;
+   margin-bottom: 50px;
+   border-radius: 20px !important;
+ }
+ 
+ .accordion-button {
+   box-shadow: none;
+   border-radius: 20px !important;
+ }
+ 
+ .accordion-button::after {
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E") !important;
+   transition: all 0.5s !important;
+ }
+ .accordion-button:not(.collapsed)::after {
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E") !important;
+ }
+ 
+ /* ============ section 2============== */
+ 
+ 
+ .sec6-border{
+   border-bottom: 1px solid gray;
+ }
+ 
+ .section8{
+   color: white;
+   background-color: #1dafdb;
+   padding: 50px !important;
+   
+ }
+ .sec8-align{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+ }
+ .section8 .fa-star{
+   color: #0e46a3;
+ }
+ 
+ .section9 .ideas ul{
+   text-decoration: none !important;
+ }
+ .section9 .ideas ul li{
+   /* text-decoration: none !important; */
+   border: 3px solid rgba(0, 0, 0, 0.1);
+   list-style-type: none;
+   border-radius: 20px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   padding: 20px;
+   
+ }
+ .section9 .ideas ul li a{
+     text-decoration: none !important;
+     display: flex;
+     justify-content: space-between;
+     color: black;
+ }
+ .right{
+   display: flex;
+   justify-content: space-between;
+ 
+ }
+ .sec7-h2{
+   font-size: 22px !important;
+ }
+ .sec7-p{
+   font-size: 14px;
+ }
+ 
+   /* ===================== Media queryy===================== */
+ 
+   @media only screen and (max-width: 992px ) {
+     .sec1-head{
+       font-size: 40px;
+     }
+     .btn0{
+       width: 150px;
+       height: 50px;
+       font-size: 16px;
+     }
+   }
+ 
+   @media only screen and (max-width:576px) {
+     .sec1-head{
+       font-size: 30px;
+     }
+     .links-align{
+       text-align: center !important;
+     }
+   }
+ 
+   @media only screen and (max-width: 360px) {
+     .sec8-h1{
+       font-size: 16px;
+      
+    }
+    ul{
+     padding: 0 !important;
+    }
+  }
+   /* ===================== Media queryy===================== */
+ 
+ /* ====================================== Trust center file end===================================== */
+
+
+ /* ====================================== What is vpn file ===================================== */
+ body{
+     font-family: "Poppins", sans-serif !important;
+ }
+ .hero-bg{
+     background-image: url(images/hero-bg.png);
+     background-size: cover;
+     background-position: center;
+ }
+ .risk-free{
+     display: block;
+     color: white;
+     text-decoration: none;
+     margin-top: 10px;
+ }
+ h1{
+     font-size: 45px !important;
+     font-weight: 600 !important; 
+ }
+ h2{
+     font-size: 40px !important;
+     font-weight: 500 !important
+ }
+ .sec1-align{
+     display: flex;
+     align-items: center;
+ }
+ .swap-align{
+     display: flex;
+     align-items: center;
+ }
+ .sec7-num{
+     font-size: 40px;
+     font-weight: 600;
+ 
+ }
+ .section-10, .sec-13{   
+     background-color: #1090fe;
+     color: aliceblue;
+ }
+ .card-text{
+     font-size: 12px;
+     text-align: center;
+ }
+ .cards{
+     margin-bottom: 20px ;
+     display: flex;
+     justify-content: center ;
+ }
+ .card{
+     box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+ }
+ .cards-align, .sec-10-align, .sec12-img{
+     display: flex;
+     justify-content: center ;
+ }
+ .btn-12{
+     width: 200px;
+     height: 50px;
+     background-color: rgb(239, 251, 14);
+     color: white;
+     border-radius: 20px;
+     font-weight: 600;
+     border: none;
+ }
+ .sec-15{
+     background-color: #e5e5fd;
+ }
+ .accordion-start{
+     padding: 20px !important;
+ }
+ .accordion-button{
+     border-radius: 20px !important;
+ }
+ .accordion-item{
+     border: 2px solid gray !important;
+     border-radius: 20px !important;
+     margin-bottom: 40px !important;
+ }
+
+ /* <==========================================> */
+ .list {
+    position: relative;
+  }
+
+.list ul {
+    position: relative;
+    padding: 0;
+  }
+.list ul li {
+    position: relative;
+    left: 0;
+    font-size: 12px;
+    color: #fff;
+    list-style: none;
+    margin: 4px 0;
+    border-left: 2px solid #F3BA5D;
+    transition: 0.5s;
+    cursor: pointer;
+    line-height: 18px;
+  }
+.list ul li:hover {
+    left: 10px;
+  }
+  .list ul li span {
+    position: relative;
+    padding: 8px;
+    padding-left: 12px;
+    display: inline-block;
+    z-index: 1;
+    transition: 0.5s;
+  }
+  .list ul li:hover span {
+    color: #111;
+  }
+  .list ul li:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #F3BA5D;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+  }
+  .list ul li:hover:before {
+    transform: scaleX(1);
+  }
+ /* <==========================================> */
+ 
+ 
+ @media only screen and (max-width: 992px) {
+     .sec-12-align{
+         display: flex;
+         justify-content: center;
+     }
+ }
+ @media only screen and (max-width: 768px) {
+     .sec1-align{
+         margin-top: 20px !important;
+     }
+ }
+ @media  (min-width: 150px) and (max-width: 576px) {
+     h1{
+         font-size: 30px !important;
+ 
+     }
+     h2{
+         font-size: 25px !important;
+     }
+ }
+ 
+ /* ====================================== what is vpn file end===================================== */
+
+ /* ====================================== Why unlock vpn file ===================================== */
+  /* <!-- <================ Sec1  ================> --> */
+  
+  .sec1 {
+    background-image: url(Images/sec1-banner.png);
+    background-position: center;
+    background-size: cover;
+    /* width: 100%;
+    height: 100vh; */
+    color: white !important;
+    display: flex;
+    align-items: center;
+  }
+  .sec1-btn-align{
+    display: flex;
+    justify-content: center;
+  }
+  .btn-1 {
+    width: 200px !important;
+    height: 50px;
+    background-color: rgb(78, 51, 232);
+    color: white;
+    border-radius: 50px;
+    font-weight: 600;
+    border: none;
+    text-align: center !important;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .btn-1:hover{
+    background-color: #3db5ff;
+    color: black;
+  }
+  .sec1-p{
+    color: rgb(232, 223, 51);
+    
+  }
+  
+  /* <!-- <================ Sec1 end  ================> --> */
+  
+  /* <!-- <================ Sec2  ================> --> */
+  
+  .card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .card-align{
+    margin-bottom: 20px !important;
+  }
+  .card-body{
+    padding-top: none;
+  }
+  
+  
+  /* <!-- <================ Sec2 end  ================> --> */
+  
+  
+  
+  /* <!-- <================ Sec3  ================> --> */
+  .sec3-card-align{
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* <!-- <================ Sec3 end  ================> --> */
+  
+  
+  /* <!-- <================ Sec 4  ================> --> */
+  .sec4-card-heading{
+    display: flex;
+    align-items: center ;
+  }
+  
+  /* <!-- <================ Sec 4 end  ================> --> */
+  
+  /* <!-- <================ Sec 4  ================> --> */
+  .sec5-card-align{
+    display: flex !important;
+    justify-content: center !important;
+  }
+  /* <!-- <================ Sec 5 end  ================> --> */
+  /* <!-- <================ Sec 6  ================> --> */
+  
+  .sec6-design{
+    background-color: #94FFD8;
+    border-radius: 20px;
+  }
+  .sec-btn-align{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  /* <!-- <================ Sec 6 end  ================> --> */
+  @media (max-width: 992px) {
+    .sec-btn-align{
+      display: block;
+      text-align: center;
+    }
+    .sec6-btn{
+      margin-top: 50px;
+    }
+  }
+ /* ====================================== What unlock file end ===================================== */
+
+
+
+ /* ====================================== What unlock file ===================================== */
+
+ /* ====================================== PACKAGES ===================================== */
+ /* ====================================== SEC1 ===================================== */
+.package-card-1{
+    background-color: #EEEEEE !important;
+}
+.packages-ul{
+    padding: 0;
+    
+    
+}
+.packages-li{
+    background-color: #fff;
+    border: 1px solid gray;
+    list-style-type: none;
+    font-size: 12px;
+    padding: 5px;
+    font-weight: 600;
+
+}
+/* .list-group-item{
+    font-size: 12px;
+
+} */
+.package-card-2{
+    background-color: #273039 !important;
+}
+.package-lorem{
+    font-size: 10px;
+}
+.package-fs-2{
+    font-size: 50px;
+    font-weight: 400;
+}
+/* ====================================== SEC1 ===================================== */
+
+
+.sec3-checkmarks{
+    list-style-type: none;
+    padding: 0;
+    font-size: 14px;
+}
+.checkmarks-li{
+    
+    font-weight: 500 !important;
+}
+.package-span{
+   
+    display: inline-block !important;
+ } 
+
+.package-btn{
+    /* display:block; */
+    margin-right: 10px !important;
+    /* text-align: center; */
+    /* margin: auto; */
+    
+}
+
+ /* ====================================== PACKAGES ===================================== */
+ @media only screen and (max-width: 576px) {
+     .package-btn{
+         /* display:block; */
+         margin-bottom: 20px !important;
+         /* text-align: center; */
+         margin: auto;
+         
+     }
+     .package-h5{
+        display: flex;
+        flex-direction: column ;
+        text-align: center;
+     }
+    
+  }
+
+ /* ====================================== What unlock file end ===================================== */
+
+
+
+
